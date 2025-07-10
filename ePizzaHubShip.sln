@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{9430692B-0B14-49F0-84F0-D339EB9263DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5375BDBC-3BCC-4F87-8AD7-7E6A72281BDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizza.UI", "ePizza.UI\ePizza.UI.csproj", "{3F6F2C55-41E1-44BE-A73E-8E71EB1A2581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizza.API", "ePizza.API\ePizza.API.csproj", "{77951581-3E2B-457F-BCE1-72B277F1BC42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F6F2C55-41E1-44BE-A73E-8E71EB1A2581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F6F2C55-41E1-44BE-A73E-8E71EB1A2581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F6F2C55-41E1-44BE-A73E-8E71EB1A2581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F6F2C55-41E1-44BE-A73E-8E71EB1A2581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77951581-3E2B-457F-BCE1-72B277F1BC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77951581-3E2B-457F-BCE1-72B277F1BC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77951581-3E2B-457F-BCE1-72B277F1BC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77951581-3E2B-457F-BCE1-72B277F1BC42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {5375BDBC-3BCC-4F87-8AD7-7E6A72281BDB}
+		{9430692B-0B14-49F0-84F0-D339EB9263DA} = {5375BDBC-3BCC-4F87-8AD7-7E6A72281BDB}
+		{3F6F2C55-41E1-44BE-A73E-8E71EB1A2581} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{77951581-3E2B-457F-BCE1-72B277F1BC42} = {9430692B-0B14-49F0-84F0-D339EB9263DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB27CAE2-3516-404F-9B37-FF9C2BCA5EDB}
+	EndGlobalSection
+EndGlobal
